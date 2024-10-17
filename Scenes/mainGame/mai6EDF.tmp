@@ -1,0 +1,223 @@
+[gd_scene load_steps=21 format=3 uid="uid://cqag7slaa0pye"]
+
+[ext_resource type="Script" path="res://Scenes/mainGame/character_body_2d.gd" id="1_13n2j"]
+[ext_resource type="Texture2D" uid="uid://dnyf6j1toa7gv" path="res://Scenes/mainGame/sprite_sheet (1).png" id="2_41niw"]
+[ext_resource type="Script" path="res://Scenes/mainGame/player.gd" id="3_kke0m"]
+[ext_resource type="Script" path="res://Scenes/mainGame/rigid_body_2d.gd" id="4_fer8w"]
+[ext_resource type="Texture2D" uid="uid://bufgkt03k5wgp" path="res://Scenes/mainGame/New Project (1).png" id="5_qj6wu"]
+[ext_resource type="Script" path="res://Scenes/mainGame/sprite_2d.gd" id="6_ku5sm"]
+[ext_resource type="Script" path="res://Scenes/mainGame/camera_2d.gd" id="7_ngq60"]
+[ext_resource type="Texture2D" uid="uid://dqpi36msdfemd" path="res://Scenes/mainGame/icon.svg" id="8_o3h5d"]
+[ext_resource type="Script" path="res://Scenes/mainGame/speech_within_spirit_icon.gd" id="9_8q5m4"]
+[ext_resource type="Texture2D" uid="uid://bi58qegutspqt" path="res://Scenes/mainGame/Speech Within Spirit.icon.png" id="10_fdvnu"]
+[ext_resource type="Script" path="res://Scenes/mainGame/label.gd" id="10_rh4t4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vdi67"]
+size = Vector2(45.3484, 49.9693)
+
+[sub_resource type="Animation" id="Animation_j5vds"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Player:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="Animation" id="Animation_uq1hw"]
+resource_name = "idle"
+length = 0.05
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Player:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_u66xc"]
+resource_name = "walk"
+length = 0.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Player:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [1, 0, 3, 0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_envp4"]
+_data = {
+"RESET": SubResource("Animation_j5vds"),
+"idle": SubResource("Animation_uq1hw"),
+"walk": SubResource("Animation_u66xc")
+}
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_hwv2i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l1dra"]
+size = Vector2(34.5227, 5.60196)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2ws0t"]
+texture = ExtResource("10_fdvnu")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_vmhle"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_2ws0t")
+
+[node name="MainGame" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(587, 289)
+scale = Vector2(1.98438, 1.98438)
+script = ExtResource("1_13n2j")
+
+[node name="Player" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(-1.00787, 0.503936)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_41niw")
+hframes = 4
+frame = 1
+script = ExtResource("3_kke0m")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+light_mask = 2
+visibility_layer = 2
+position = Vector2(-0.503925, -5.24521e-06)
+scale = Vector2(0.455614, 0.970841)
+shape = SubResource("RectangleShape2D_vdi67")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody2D"]
+libraries = {
+"": SubResource("AnimationLibrary_envp4")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="CharacterBody2D"]
+root_node = NodePath("../AnimationPlayer")
+tree_root = SubResource("AnimationNodeBlendSpace2D_hwv2i")
+parameters/blend_position = Vector2(0.036566, 0.0744681)
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+lock_rotation = true
+freeze = true
+script = ExtResource("4_fer8w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+position = Vector2(624.647, 555.5)
+scale = Vector2(21.6874, 34.8092)
+shape = SubResource("RectangleShape2D_l1dra")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+position = Vector2(625, 554)
+scale = Vector2(1.0375, 0.269444)
+texture = ExtResource("5_qj6wu")
+script = ExtResource("6_ku5sm")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 333)
+script = ExtResource("7_ngq60")
+
+[node name="goober" type="Sprite2D" parent="."]
+z_index = -90
+position = Vector2(816, 425)
+scale = Vector2(0.507813, 0.507813)
+texture = ExtResource("8_o3h5d")
+script = ExtResource("9_8q5m4")
+
+[node name="Label" type="Label" parent="goober"]
+offset_left = -169.354
+offset_top = -126.031
+offset_right = 159.646
+offset_bottom = -71.0306
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "i'm gonna gloopy
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("10_rh4t4")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(587, 289)
+scale = Vector2(1.98438, 1.98438)
+tile_set = SubResource("TileSet_vmhle")

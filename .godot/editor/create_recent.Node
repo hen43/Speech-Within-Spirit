@@ -1,0 +1,11 @@
+TileMapLayer
+Timer
+Label
+Sprite2D
+AnimationPlayer
+CollisionShape2D
+RigidBody2D
+AnimationTree
+CharacterBody2D
+PointLight2D
+Camera2D
