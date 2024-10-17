@@ -1,1 +1,3 @@
 res://Scenes/mainGame/mainGame.tscn
+res://Scenes/mainGame/label.gd
+res://Scenes/mainGame/camera_2d.gd
