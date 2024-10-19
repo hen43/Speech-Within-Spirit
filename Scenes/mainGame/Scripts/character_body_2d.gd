@@ -17,8 +17,8 @@ func _physics_process(delta: float) -> void:
 	direction = Input.get_axis("left", "right")		
 	
 	if direction:
-		velocity.x = direction * SPEED * (int(Input.is_key_pressed(KEY_SPACE)) + 1);
-		animation.play("walk")
+		velocity.x = direction * SPEED;
+		animation.play("walk");
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		animation.play("idle")

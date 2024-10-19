@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bufgkt03k5wgp"
-path="res://.godot/imported/New Project (1).png-cd7c78c02eda96901c33f3ac048ef09c.ctex"
+uid="uid://dtm4kftpoghfa"
+path="res://.godot/imported/playerRun.png-bd7e7decd6647eb15857d78a9eadf27a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/mainGame/New Project (1).png"
-dest_files=["res://.godot/imported/New Project (1).png-cd7c78c02eda96901c33f3ac048ef09c.ctex"]
+source_file="res://Scenes/mainGame/playerRun.png"
+dest_files=["res://.godot/imported/playerRun.png-bd7e7decd6647eb15857d78a9eadf27a.ctex"]
 
 [params]
 
