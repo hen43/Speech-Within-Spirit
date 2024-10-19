@@ -1,6 +1,6 @@
 extends Sprite2D
 
-@onready var player = get_node("../CharacterBody2D")
+@onready var player = get_node("../Player")
 @export var interactable = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

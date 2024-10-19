@@ -8,23 +8,30 @@ const JUMP_VELOCITY = -400.0
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-		
-	# Handle jump.
-	if Input.is_action_just_pressed("up") and is_on_floor():
-		velocity.y = JUMP_VELOCITY;
-		$AudioStreamPlayer2D.stream = jumpSound;
-		$AudioStreamPlayer2D.play();
+		# the player gets snagged on a triangle tile. fix in the future. it prevents jumping.
+	
+	#if Input.is_action_just_pressed("up") and is_on_floor():
+		#velocity.y = JUMP_VELOCITY;
+		#$AudioStreamPlayer2D.stream = jumpSound;
+		#$AudioStreamPlayer2D.play();
 
 	direction = Input.get_axis("left", "right")		
 	
 	if direction:
 		velocity.x = direction * SPEED;
-		animation.play("walk");
+		if Input.is_key_pressed(KEY_SPACE):
+			animation.play("run");
+			velocity.x *= 3;
+		else:
+			animation.play("walk");
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		animation.play("idle")
+		
+	if not is_on_floor():
+		velocity += get_gravity() * delta;
+	else:
+		velocity.y = -20;
 
 	move_and_slide()
 

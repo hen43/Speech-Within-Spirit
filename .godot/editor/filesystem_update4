@@ -1,7 +1,0 @@
-res://Scenes/mainGame/mainGame.tscn
-res://Scenes/mainGame/Scripts/main_game.gd
-res://Scenes/mainGame/Scripts/character_body_2d.gd
-res://Scenes/mainGame/Scripts/player.gd
-res://Scenes/mainGame/Scripts/sprite_2d.gd
-res://Scenes/mainGame/Scripts/rigid_body_2d.gd
-res://Scenes/mainGame/Scripts/npc1.gd
