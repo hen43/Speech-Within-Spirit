@@ -1,5 +1,6 @@
 extends CharacterBody2D
 @onready var animation = $AnimationPlayer
+@onready var jumpSound = preload("res://Scenes/mainGame/Sounds/jump.wav");
 
 const SPEED = 150.0
 const JUMP_VELOCITY = -400.0
@@ -12,7 +13,9 @@ func _physics_process(delta: float) -> void:
 		
 	# Handle jump.
 	if Input.is_action_just_pressed("up") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+		velocity.y = JUMP_VELOCITY;
+		$AudioStreamPlayer2D.stream = jumpSound;
+		$AudioStreamPlayer2D.play();
 
 	direction = Input.get_axis("left", "right")		
 	

@@ -15,7 +15,7 @@ func _process(_delta: float) -> void:
 	if interactable:
 		self_modulate = Color(1,1,0.6,1)
 		if Input.is_action_just_pressed("interact"):
-			$Label.visible = true
+			$Label.visible = true;
 
 	else:
 		self_modulate = Color(1,1,1,1)

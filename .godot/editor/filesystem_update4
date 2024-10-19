@@ -1,13 +1,7 @@
 res://Scenes/mainGame/mainGame.tscn
-res://Scenes/mainGame/character_body_2d.gd
 res://Scenes/mainGame/Scripts/main_game.gd
 res://Scenes/mainGame/Scripts/character_body_2d.gd
 res://Scenes/mainGame/Scripts/player.gd
-res://Scenes/mainGame/Scripts/rigid_body_2d.gd
-res://Scenes/mainGame/Scripts/camera_2d.gd
 res://Scenes/mainGame/Scripts/sprite_2d.gd
-res://Scenes/titleScreen/sprite_2d.gd
-res://Scenes/mainGame/Scripts/label.gd
-res://Scenes/titleScreen/button.gd
+res://Scenes/mainGame/Scripts/rigid_body_2d.gd
 res://Scenes/mainGame/Scripts/npc1.gd
-res://Scenes/titleScreen/t_itle.gd
