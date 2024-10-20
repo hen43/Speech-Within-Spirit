@@ -1,8 +1,11 @@
 res://Scenes/mainGame/mainGame.tscn
 res://Scenes/mainGame/Scripts/main_game.gd
-res://Scenes/mainGame/Scripts/character_body_2d.gd
 res://Scenes/mainGame/Scripts/player.gd
+res://Scenes/mainGame/Scripts/character_body_2d.gd
 res://Scenes/mainGame/Scripts/rigid_body_2d.gd
 res://Scenes/mainGame/Scripts/sprite_2d.gd
+res://Scenes/titleScreen/titleScreen.tscn
 res://Scenes/mainGame/Scripts/Bus.cs
 res://Scenes/mainGame/Scripts/Player.cs
+res://Scenes/mainGame/FadeScreen.cs
+res://Scenes/mainGame/Scripts/DayScreen.cs

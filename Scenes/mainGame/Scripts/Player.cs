@@ -51,6 +51,7 @@ public partial class Player : CharacterBody2D{
         if (IsOnFloor() == false)
         {
             Velocity += GetGravity() * (float)delta;
+            animPlayer.Play("fall");
         }
 
         MoveAndSlide();
@@ -58,5 +59,8 @@ public partial class Player : CharacterBody2D{
 
     public override void _Process(double delta)
     {
+        if (Input.IsKeyPressed(Key.R)){
+            Position = new Vector2(0,380);
+        }
     }
 }
