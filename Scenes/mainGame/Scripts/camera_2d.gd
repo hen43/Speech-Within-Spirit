@@ -13,6 +13,6 @@ func _process(_delta: float) -> void:
 	
 	if Input.is_key_pressed(KEY_SPACE):
 		zoom += (Vector2(2,2) - zoom)/16;
-		position += Vector2((randf()-0.5) * 4, (randf()-0.5) * 4)
+		#position += Vector2((randf()-0.5) * 4, (randf()-0.5) * 4)
 	else:
 		zoom += (Vector2(2.6,2.6) - zoom)/16;

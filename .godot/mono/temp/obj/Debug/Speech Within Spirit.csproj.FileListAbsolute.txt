@@ -1,0 +1,18 @@
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.csproj.AssemblyReference.cache
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.AssemblyInfoInputs.cache
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.AssemblyInfo.cs
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.csproj.CoreCompileInputs.cache
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.sourcelink.json
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\bin\Debug\Speech Within Spirit.deps.json
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\bin\Debug\Speech Within Spirit.runtimeconfig.json
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\bin\Debug\Speech Within Spirit.dll
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\bin\Debug\Speech Within Spirit.pdb
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech W.AF2F07FE.Up2Date
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.dll
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\refint\Speech Within Spirit.dll
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.pdb
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\Speech Within Spirit.genruntimeconfig.cache
+C:\Users\larry\Documents\godotGame-master\godotGame\.godot\mono\temp\obj\Debug\ref\Speech Within Spirit.dll
