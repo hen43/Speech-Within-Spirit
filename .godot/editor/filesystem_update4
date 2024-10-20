@@ -4,3 +4,5 @@ res://Scenes/mainGame/Scripts/character_body_2d.gd
 res://Scenes/mainGame/Scripts/player.gd
 res://Scenes/mainGame/Scripts/rigid_body_2d.gd
 res://Scenes/mainGame/Scripts/sprite_2d.gd
+res://Scenes/mainGame/Scripts/Bus.cs
+res://Scenes/mainGame/Scripts/Player.cs
