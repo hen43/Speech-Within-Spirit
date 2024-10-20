@@ -1,35 +1,37 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729393711
-export_presets.cfg::TextFile::-1::1729304774::0::1::::<><>::
-Speech Within Spirit.png::CompressedTexture2D::6164040073037243606::1729304774::1729311340::1::::<><>::
-::res://Fonts/::1729305418
-AmaticSC-Bold.ttf::FontFile::9221780196513156067::1729304773::1729305418::1::::<><>::
-AmaticSC-Regular.ttf::FontFile::3208262111451627324::1729304773::1729305418::1::::<><>::
+::res://::1729398134
+Speech Within Spirit.png::CompressedTexture2D::6164040073037243606::1729304774::1729397961::1::::<><>::
+::res://Fonts/::1729397929
+AmaticSC-Bold.ttf::FontFile::9221780196513156067::1729304773::1729397929::1::::<><>::
+AmaticSC-Regular.ttf::FontFile::3208262111451627324::1729304773::1729397929::1::::<><>::
 ::res://Scenes/::1729304773
-::res://Scenes/mainGame/::1729316354
-icon.svg::CompressedTexture2D::8313786601353742403::1729304773::1729305418::1::::<><>::
-mainGame.tscn::PackedScene::5896285275370427640::1729316354::0::1::::<><>::res://Scenes/mainGame/Scripts/main_game.gd<>res://Scenes/mainGame/Scripts/character_body_2d.gd<>uid://bjakvc2tnupcv::::res://Scenes/mainGame/playerSheet.png<>res://Scenes/mainGame/Scripts/player.gd<>res://Scenes/mainGame/Scripts/playerCollision.gd<>res://Scenes/mainGame/Scripts/camera_2d.gd<>uid://dqpi36msdfemd::::res://Scenes/mainGame/icon.svg<>res://Scenes/mainGame/Scripts/sprite_2d.gd<>res://Scenes/mainGame/Scripts/npc1.gd<>uid://bi58qegutspqt::::res://Scenes/mainGame/Speech Within Spirit.icon.png<>res://Scenes/mainGame/Scripts/label.gd<>uid://c4wbpt23i1nds::::res://Scenes/mainGame/tiles.png
-pixilart-drawing.png::CompressedTexture2D::668350799099893289::1729304773::1729305418::1::::<><>::
-playerShee.png::CompressedTexture2D::8337695455990146894::1729306297::1729315642::1::::<><>::
-playerSheet.png::CompressedTexture2D::3018765095672928421::1729315598::1729315646::1::::<><>::
-Speech Within Spirit.icon.png::CompressedTexture2D::3011895219179976367::1729304773::1729305418::1::::<><>::
-tiles.png::CompressedTexture2D::6853822688317087804::1729314112::1729315608::1::::<><>::
-::res://Scenes/mainGame/Scripts/::1729316350
-camera_2d.gd::GDScript::-1::1729316311::0::1::::<>Camera2D<>::
-character_body_2d.gd::GDScript::-1::1729316072::0::1::::<>CharacterBody2D<>::
+::res://Scenes/mainGame/::1729398134
+bus.png::CompressedTexture2D::5021189538058627709::1729398123::1729398134::1::::<><>::
+icon.svg::CompressedTexture2D::8313786601353742403::1729304773::1729397929::1::::<><>::
+mainGame.tscn::PackedScene::5896285275370427640::1729397982::0::1::::<><>::res://Scenes/mainGame/Scripts/main_game.gd<>res://Scenes/mainGame/Scripts/character_body_2d.gd<>uid://cuvyspbalehik::::res://Scenes/titleScreen/New Project.png<>res://Scenes/mainGame/Scripts/Bus.cs<>uid://bjakvc2tnupcv::::res://Scenes/mainGame/playerSheet.png<>res://Scenes/mainGame/Scripts/player.gd<>res://Scenes/mainGame/Scripts/playerCollision.gd<>res://Scenes/mainGame/Scripts/camera_2d.gd<>uid://dqpi36msdfemd::::res://Scenes/mainGame/icon.svg<>res://Scenes/mainGame/Scripts/npc1.gd<>uid://bi58qegutspqt::::res://Scenes/mainGame/Speech Within Spirit.icon.png<>res://Scenes/mainGame/Scripts/label.gd<>uid://c4wbpt23i1nds::::res://Scenes/mainGame/tiles.png
+pixilart-drawing.png::CompressedTexture2D::668350799099893289::1729304773::1729397929::1::::<><>::
+playerShee.png::CompressedTexture2D::8337695455990146894::1729306297::1729397929::1::::<><>::
+playerSheet.png::CompressedTexture2D::3018765095672928421::1729315598::1729397930::1::::<><>::
+Speech Within Spirit.icon.png::CompressedTexture2D::3011895219179976367::1729304773::1729397929::1::::<><>::
+Sprite2d.cs::CSharpScript::-1::1729396995::0::1::::<><>::
+tiles.png::CompressedTexture2D::6853822688317087804::1729314112::1729397929::1::::<><>::
+::res://Scenes/mainGame/Scripts/::1729397932
+Bus.cs::CSharpScript::-1::1729397858::0::1::::<>Sprite2D<>::
+camera_2d.gd::GDScript::-1::1729394196::0::1::::<>Camera2D<>::
+character_body_2d.gd::GDScript::-1::1729397932::0::1::::<>CharacterBody2D<>::
 label.gd::GDScript::-1::1729311177::0::1::::<>Label<>::
-main_game.gd::GDScript::-1::1729311513::0::1::::<>Node2D<>::
+main_game.gd::GDScript::-1::1729397932::0::1::::<>Node2D<>::
 npc1.gd::GDScript::-1::1729315970::0::1::::<>Sprite2D<>::
-player.gd::GDScript::-1::1729311513::0::1::::<>Sprite2D<>::
+player.gd::GDScript::-1::1729397932::0::1::::<>Sprite2D<>::
 playerCollision.gd::GDScript::-1::1729316350::0::1::::<>CollisionShape2D<>::
-rigid_body_2d.gd::GDScript::-1::1729311513::0::1::::<>RigidBody2D<>::
-sprite_2d.gd::GDScript::-1::1729311513::0::1::::<>Sprite2D<>::
-::res://Scenes/mainGame/Sounds/::1729314131
-jump.wav::AudioStreamWAV::114513277592875302::1729312000::1729312052::1::::<><>::
-walk.wav::AudioStreamWAV::7795978615254821963::1729312000::1729312057::1::::<><>::
-::res://Scenes/titleScreen/::1729310556
+rigid_body_2d.gd::GDScript::-1::1729397932::0::1::::<>RigidBody2D<>::
+sprite_2d.gd::GDScript::-1::1729397932::0::1::::<>Sprite2D<>::
+::res://Scenes/mainGame/Sounds/::1729397930
+jump.wav::AudioStreamWAV::114513277592875302::1729312000::1729397930::1::::<><>::
+walk.wav::AudioStreamWAV::7795978615254821963::1729312000::1729397930::1::::<><>::
+::res://Scenes/titleScreen/::1729397929
 button.gd::GDScript::-1::1729310555::0::1::::<>Button<>::
-New Project.png::CompressedTexture2D::6221460314508710214::1729304773::1729305418::1::::<><>::
+New Project.png::CompressedTexture2D::6221460314508710214::1729304773::1729397929::1::::<><>::
 sprite_2d.gd::GDScript::-1::1729310556::0::1::::<>Sprite2D<>::
 titleScreen.tscn::PackedScene::1877380713837572515::1729304773::0::1::::<><>::uid://d4ndmwvoyfpwt::::res://Fonts/AmaticSC-Bold.ttf<>res://Scenes/titleScreen/t_itle.gd<>res://Scenes/titleScreen/button.gd<>uid://cuvyspbalehik::::res://Scenes/titleScreen/New Project.png<>res://Scenes/titleScreen/sprite_2d.gd
 t_itle.gd::GDScript::-1::1729310556::0::1::::<>Label<>::
