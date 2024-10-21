@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://cv8ttk21jg588"]
+
+[ext_resource type="Texture2D" uid="uid://dcmiv7ua66u8f" path="res://Scenes/finalMinusTwo/costume1 (1).svg" id="1_wp840"]
+[ext_resource type="FontFile" uid="uid://blyduxemsubwm" path="res://Fonts/AmaticSC-Regular.ttf" id="2_e76h4"]
+[ext_resource type="Script" path="res://Scenes/finalMinusTwo/panicLabel.cs" id="3_8yka6"]
+
+[sub_resource type="Gradient" id="Gradient_ve7be"]
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_bxjkb"]
+gradient = SubResource("Gradient_ve7be")
+
+[node name="FinalMinusTwo" type="Node2D"]
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+z_index = 20
+position = Vector2(576.085, 411)
+scale = Vector2(2.119, 2.119)
+texture = ExtResource("1_wp840")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(639, 378)
+scale = Vector2(9.76172, 1287.5)
+texture = SubResource("GradientTexture1D_bxjkb")
+
+[node name="panicLabel" type="Label" parent="."]
+offset_top = 152.0
+offset_right = 1151.0
+offset_bottom = 268.0
+theme_override_fonts/font = ExtResource("2_e76h4")
+theme_override_font_sizes/font_size = 101
+text = "I'm gonna lose it."
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_8yka6")
+
+[node name="Timer" type="Timer" parent="panicLabel"]
+wait_time = 0.814
+autostart = true
+
+[node name="Camera2D" type="Camera2D" parent="panicLabel"]
+position = Vector2(577, 171)
+scale = Vector2(9.76172, 1287.5)
+
+[connection signal="timeout" from="panicLabel/Timer" to="panicLabel" method="_on_timer_timeout"]

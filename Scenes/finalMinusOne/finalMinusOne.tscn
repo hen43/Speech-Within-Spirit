@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cj6x0nr6scysh"]
+
+[sub_resource type="Gradient" id="Gradient_tlvom"]
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ed6ed"]
+gradient = SubResource("Gradient_tlvom")
+
+[node name="FinalMinusOne" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(570.5, 353.75)
+scale = Vector2(7.36328, 870.5)
+texture = SubResource("GradientTexture1D_ed6ed")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(570.5, 353.75)
+scale = Vector2(7.36328, 870.5)
+offset = Vector2(5.705, -30.99)

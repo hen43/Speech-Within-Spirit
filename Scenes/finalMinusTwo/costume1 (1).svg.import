@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dq13vjwura3rm"
-path="res://.godot/imported/playerShee.png-f4472513ac619a6a295a67b870e779bc.ctex"
+uid="uid://dcmiv7ua66u8f"
+path="res://.godot/imported/costume1 (1).svg-2f2072813ff4aa9ef777f83f3a866c1f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/mainGame/playerShee.png"
-dest_files=["res://.godot/imported/playerShee.png-f4472513ac619a6a295a67b870e779bc.ctex"]
+source_file="res://Scenes/finalMinusTwo/costume1 (1).svg"
+dest_files=["res://.godot/imported/costume1 (1).svg-2f2072813ff4aa9ef777f83f3a866c1f.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Speech Within Spirit"
-run/main_scene="res://Scenes/mainGame/mainGame.tscn"
+run/main_scene="res://Scenes/mainGame/Day1.tscn"
 config/features=PackedStringArray("4.3", "C#", "GL Compatibility")
 config/icon="res://Scenes/mainGame/icon.svg"
+
+[autoload]
+
+MainGame="*res://Scenes/mainGame/Scripts/MainGame.cs"
 
 [dotnet]
 
