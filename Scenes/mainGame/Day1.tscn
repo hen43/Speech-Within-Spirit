@@ -1,7 +1,7 @@
 [gd_scene load_steps=45 format=4 uid="uid://cqag7slaa0pye"]
 
 [ext_resource type="Script" path="res://Scenes/mainGame/Scripts/MainGame.cs" id="1_xekk5"]
-[ext_resource type="Texture2D" uid="uid://cdski1l30uiwb" path="res://Scenes/mainGame/bus.png" id="2_bbl3e"]
+[ext_resource type="Texture2D" uid="uid://d3xr3gnbomlwl" path="res://Scenes/mainGame/New Project (7).png" id="2_jq7og"]
 [ext_resource type="Script" path="res://Scenes/mainGame/Scripts/Bus.cs" id="3_kane4"]
 [ext_resource type="Script" path="res://Scenes/mainGame/Scripts/Player.cs" id="4_huar8"]
 [ext_resource type="Texture2D" uid="uid://rcwssy0ykcr" path="res://Scenes/mainGame/playerSheet.png" id="5_fvd3t"]
@@ -128,11 +128,11 @@ _data = {
 "walk": SubResource("Animation_u66xc")
 }
 
-[sub_resource type="Gradient" id="Gradient_eu5h8"]
+[sub_resource type="Gradient" id="Gradient_qr8dt"]
 colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_guobt"]
-gradient = SubResource("Gradient_eu5h8")
+gradient = SubResource("Gradient_qr8dt")
 
 [sub_resource type="Animation" id="Animation_bigus"]
 length = 0.001
@@ -408,9 +408,9 @@ script = ExtResource("1_xekk5")
 [node name="Bus" type="Sprite2D" parent="."]
 z_index = -8
 z_as_relative = false
-position = Vector2(135.5, 365.28)
-scale = Vector2(0.80198, 0.823115)
-texture = ExtResource("2_bbl3e")
+position = Vector2(166.597, 365.28)
+scale = Vector2(1.06408, 0.823115)
+texture = ExtResource("2_jq7og")
 script = ExtResource("3_kane4")
 
 [node name="busTimer" type="Timer" parent="Bus"]
