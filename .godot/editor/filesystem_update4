@@ -21,3 +21,4 @@ res://Scenes/final/Text.cs
 res://Scenes/finalPlusOne/finalPlusOne.tscn
 res://Scenes/finalPlusOne/Buttons.cs
 res://Scenes/mainGame/Day1.tscn
+res://Scenes/final/black_screen.gd

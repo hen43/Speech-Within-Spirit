@@ -1,7 +1,8 @@
+Timer
+Sprite2D
 StaticBody2D
 Area2D
 CollisionShape2D
-Sprite2D
 Control
 Button
 Container
@@ -10,5 +11,4 @@ OptionButton
 MenuBar
 LineEdit
 Camera2D
-Timer
 TileMapLayer

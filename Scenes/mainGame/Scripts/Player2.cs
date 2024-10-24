@@ -57,8 +57,5 @@ public partial class Player2 : CharacterBody2D{
 
     public override void _Process(double delta)
     {
-        if (Input.IsKeyPressed(Key.O)){
-            Position = new Vector2(1000,500);
-        }
     }
 }

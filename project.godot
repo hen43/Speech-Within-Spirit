@@ -11,13 +11,20 @@ config_version=5
 [application]
 
 config/name="Speech Within Spirit"
+config/version="0.9.0"
 run/main_scene="res://Scenes/titleScreen/titleScreen.tscn"
 config/features=PackedStringArray("4.3", "C#", "GL Compatibility")
-config/icon="res://Scenes/mainGame/icon.svg"
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/image="res://SWSBootsplash.png"
+config/icon="res://SWSIcon.png"
 
 [autoload]
 
 MainGame="*res://Scenes/mainGame/Scripts/MainGame.cs"
+
+[display]
+
+window/size/mode=2
 
 [dotnet]
 

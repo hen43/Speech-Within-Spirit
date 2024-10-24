@@ -42,7 +42,7 @@ public partial class Npc2 : Sprite2D
                     await Wait(2.0f);
                 }
                 await Wait(2.0f);
-                GetTree().ChangeSceneToFile("res://Scenes/titleScreen/titleScreen.tscn");
+                GetTree().ChangeSceneToFile("res://Scenes/final/final.tscn");
             }
         }
         else

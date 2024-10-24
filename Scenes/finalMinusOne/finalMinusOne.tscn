@@ -345,9 +345,9 @@ position = Vector2(-18.7733, -102.4)
 shape = SubResource("RectangleShape2D_b7ma2")
 
 [node name="Label" type="Label" parent="."]
-offset_left = 819.21
+offset_left = 827.21
 offset_top = 422.79
-offset_right = 1197.84
+offset_right = 1205.84
 offset_bottom = 618.055
 scale = Vector2(0.78, 0.78)
 theme_override_constants/line_spacing = -15

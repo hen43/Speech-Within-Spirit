@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Speech Within Spirit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd0d4759f6aa9e5d1d30ee622cad47b38f6558f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d271a858dc156be91b7b1a368b0c0876deb5f4be")]
 [assembly: System.Reflection.AssemblyProductAttribute("Speech Within Spirit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Speech Within Spirit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

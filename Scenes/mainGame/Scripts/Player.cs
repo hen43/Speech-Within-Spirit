@@ -82,9 +82,6 @@ public partial class Player : CharacterBody2D{
     public override void _Process(double delta)
     {
         var mainGame = GetNode<MainGame>("/root/MainGame");
-        if (Input.IsKeyPressed(Key.R)){
-            Position = new Vector2(0,380);
-        }
 
         bool interactable = Mathf.Abs(Position.X - hazards.Position.X) < InteractableDistance;
 
