@@ -1,12 +1,11 @@
-[gd_scene load_steps=33 format=4 uid="uid://cj6x0nr6scysh"]
+[gd_scene load_steps=32 format=4 uid="uid://cj6x0nr6scysh"]
 
-[ext_resource type="Script" path="res://Scenes/mainGame/Scripts/camera_2d2.gd" id="1_254tt"]
-[ext_resource type="Script" path="res://Scenes/mainGame/Scripts/Player2.cs" id="2_du2yy"]
+[ext_resource type="Script" path="res://Scenes/finalMinusOne/camera_2d2.gd" id="1_254tt"]
 [ext_resource type="Texture2D" uid="uid://rcwssy0ykcr" path="res://Scenes/mainGame/playerSheet.png" id="2_no7d1"]
-[ext_resource type="Script" path="res://Scenes/mainGame/Scripts/player.gd" id="3_0mxh3"]
+[ext_resource type="Script" path="res://Scenes/finalMinusOne/Scripts/Tender.cs" id="2_rbndk"]
+[ext_resource type="Script" path="res://Scenes/finalMinusOne/Scripts/Globber.cs" id="2_sby6h"]
 [ext_resource type="Texture2D" uid="uid://bgrw32et06vf0" path="res://Scenes/finalMinusOne/cashierSpriteSheet.png" id="5_n622n"]
 [ext_resource type="FontFile" uid="uid://blyduxemsubwm" path="res://Fonts/AmaticSC-Regular.ttf" id="5_tvnug"]
-[ext_resource type="Script" path="res://Scenes/mainGame/Scripts/Npc2.cs" id="6_yum5n"]
 [ext_resource type="Texture2D" uid="uid://6lmhhdke8fge" path="res://Scenes/finalMinusOne/shopTileSet.png" id="7_0qlet"]
 [ext_resource type="Texture2D" uid="uid://0qpk5pmub6rr" path="res://Scenes/finalMinusOne/shopTileSet2.png" id="8_ixpjn"]
 [ext_resource type="Texture2D" uid="uid://bafbogtklojgo" path="res://Scenes/finalMinusOne/Controls3 (1).png" id="9_ngsav"]
@@ -280,44 +279,43 @@ position = Vector2(570.5, 353.75)
 scale = Vector2(11.9102, 1650.5)
 texture = SubResource("GradientTexture1D_ed6ed")
 
-[node name="Player2" type="CharacterBody2D" parent="."]
+[node name="Globber" type="CharacterBody2D" parent="."]
 position = Vector2(250, 447.375)
 scale = Vector2(2.055, 2.055)
-script = ExtResource("2_du2yy")
+script = ExtResource("2_sby6h")
 
-[node name="Player" type="Sprite2D" parent="Player2"]
+[node name="Player" type="Sprite2D" parent="Globber"]
 scale = Vector2(0.3, 0.3)
 texture = ExtResource("2_no7d1")
 hframes = 4
 vframes = 3
 frame = 1
-script = ExtResource("3_0mxh3")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Globber"]
 light_mask = 2
 visibility_layer = 2
 position = Vector2(-1.51178, 5.72844)
 scale = Vector2(0.455614, 0.970841)
 shape = SubResource("RectangleShape2D_32m1e")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Player2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Globber"]
 libraries = {
 "": SubResource("AnimationLibrary_envp4")
 }
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Player2"]
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Globber"]
 position = Vector2(-295.81, -145.637)
 scale = Vector2(0.503936, 0.503936)
 
-[node name="Npc" type="Sprite2D" parent="."]
+[node name="Tender" type="Sprite2D" parent="."]
 z_index = 70
 position = Vector2(1170, 490)
 scale = Vector2(0.69, 0.69)
 texture = ExtResource("5_n622n")
 hframes = 4
-script = ExtResource("6_yum5n")
+script = ExtResource("2_rbndk")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Npc"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Tender"]
 libraries = {
 "": SubResource("AnimationLibrary_6x3ah")
 }

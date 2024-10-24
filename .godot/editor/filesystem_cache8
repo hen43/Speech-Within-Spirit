@@ -1,7 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729733338
-export_presets.cfg::TextFile::-1::1729485400::0::1::::<><>::
-Speech Within Spirit.png::CompressedTexture2D::6164040073037243606::1729304774::1729397961::1::::<><>::
+::res://::1729742967
+export_presets.cfg::TextFile::-1::1729740004::0::1::::<><>::
 SWSBootsplash.png::CompressedTexture2D::2716677178470190006::1729733000::1729733028::1::::<><>::
 SWSIcon.png::CompressedTexture2D::9015822037490216031::1729733292::1729733340::1::::<><>::
 ::res://data_Speech Within Spirit_windows_x86_64/::1729726098
@@ -11,37 +10,41 @@ Speech Within Spirit.runtimeconfig.json::JSON::-1::1729485401::0::1::::<><>::
 AmaticSC-Bold.ttf::FontFile::9221780196513156067::1729304773::1729397929::1::::<><>::
 AmaticSC-Regular.ttf::FontFile::3208262111451627324::1729304773::1729397929::1::::<><>::
 ::res://Scenes/::1729728852
-::res://Scenes/final/::1729733160
+::res://Scenes/final/::1729742913
 arrows.png::CompressedTexture2D::426945764436532298::1729727886::1729727893::1::::<><>::
-final.tscn::PackedScene::1112203859738372916::1729733160::0::1::::<><>::uid://blyduxemsubwm::::res://Fonts/AmaticSC-Regular.ttf<>uid://bhw5nux0btw1p::::res://Scenes/final/slash.png<>res://Scenes/final/Text.cs<>uid://d4ndmwvoyfpwt::::res://Fonts/AmaticSC-Bold.ttf<>uid://gc2y76nlh0ty::::res://Scenes/final/arrows.png<>uid://4cma4bp2xpka::::res://Scenes/final/theCount.png<>res://Scenes/final/black_screen.gd
 black_screen.gd::GDScript::-1::1729732459::0::1::::<>Sprite2D<>::
+final.tscn::PackedScene::1112203859738372916::1729742913::0::1::::<><>::uid://blyduxemsubwm::::res://Fonts/AmaticSC-Regular.ttf<>uid://bhw5nux0btw1p::::res://Scenes/final/slash.png<>res://Scenes/final/Text.cs<>uid://d4ndmwvoyfpwt::::res://Fonts/AmaticSC-Bold.ttf<>uid://gc2y76nlh0ty::::res://Scenes/final/arrows.png<>uid://4cma4bp2xpka::::res://Scenes/final/theCount.png<>res://Scenes/final/black_screen.gd
 slash.png::CompressedTexture2D::2925004711987899875::1729726035::1729726167::1::::<><>::
 Text.cs::CSharpScript::-1::1729729789::0::1::::<>Label<>::
 theCount.png::CompressedTexture2D::2040335350364748952::1729727520::1729727521::1::::<><>::
-::res://Scenes/finalMinusOne/::1729733160
+::res://Scenes/finalMinusOne/::1729742927
 black_fade.gd::GDScript::-1::1729667972::0::1::::<>Sprite2D<>::
+camera_2d2.gd::GDScript::-1::1729742228::0::1::::<>Camera2D<>::
 cashierSpriteSheet.png::CompressedTexture2D::2844035368618106751::1729663137::1729726076::1::::<><>::
 Controls3 (1).png::CompressedTexture2D::2396828635531834526::1729663597::1729726076::1::::<><>::
-finalMinusOne.tscn::PackedScene::5469978516683483803::1729733160::0::1::::<><>::res://Scenes/mainGame/Scripts/camera_2d2.gd<>res://Scenes/mainGame/Scripts/Player2.cs<>uid://rcwssy0ykcr::::res://Scenes/mainGame/playerSheet.png<>res://Scenes/mainGame/Scripts/player.gd<>uid://bgrw32et06vf0::::res://Scenes/finalMinusOne/cashierSpriteSheet.png<>uid://blyduxemsubwm::::res://Fonts/AmaticSC-Regular.ttf<>res://Scenes/mainGame/Scripts/Npc2.cs<>uid://6lmhhdke8fge::::res://Scenes/finalMinusOne/shopTileSet.png<>uid://0qpk5pmub6rr::::res://Scenes/finalMinusOne/shopTileSet2.png<>uid://bafbogtklojgo::::res://Scenes/finalMinusOne/Controls3 (1).png<>res://Scenes/finalMinusOne/black_fade.gd
+finalMinusOne.tscn::PackedScene::5469978516683483803::1729742927::0::1::::<><>::res://Scenes/finalMinusOne/camera_2d2.gd<>uid://rcwssy0ykcr::::res://Scenes/mainGame/playerSheet.png<>res://Scenes/finalMinusOne/Scripts/Tender.cs<>res://Scenes/finalMinusOne/Scripts/Globber.cs<>uid://bgrw32et06vf0::::res://Scenes/finalMinusOne/cashierSpriteSheet.png<>uid://blyduxemsubwm::::res://Fonts/AmaticSC-Regular.ttf<>uid://6lmhhdke8fge::::res://Scenes/finalMinusOne/shopTileSet.png<>uid://0qpk5pmub6rr::::res://Scenes/finalMinusOne/shopTileSet2.png<>uid://bafbogtklojgo::::res://Scenes/finalMinusOne/Controls3 (1).png<>res://Scenes/finalMinusOne/black_fade.gd
 shopTileSet2.png::CompressedTexture2D::1788681347290910039::1729662390::1729726076::1::::<><>::
 shopTileSet.png::CompressedTexture2D::2199303785303060140::1729653195::1729726076::1::::<><>::
-sprite_2d_2.gd::GDScript::-1::1729667879::0::1::::<>Sprite2D<>::
-::res://Scenes/finalMinusTwo/::1729667432
+sprite_2d_2.gd::GDScript::-1::1729742927::0::1::::<>Sprite2D<>::
+::res://Scenes/finalMinusOne/Scripts/::1729742722
+Globber.cs::CSharpScript::-1::1729742908::0::1::::<><>::
+Tender.cs::CSharpScript::-1::1729742783::0::1::::<><>::
+::res://Scenes/finalMinusTwo/::1729742914
 costume1 (1).svg::CompressedTexture2D::7324937220704181791::1729482634::1729482634::1::::<><>::
-finalMinusTwo.tscn::PackedScene::6316119670752451003::1729667432::0::1::::<><>::uid://dcmiv7ua66u8f::::res://Scenes/finalMinusTwo/costume1 (1).svg<>uid://blyduxemsubwm::::res://Fonts/AmaticSC-Regular.ttf<>res://Scenes/finalMinusTwo/panicLabel.cs
+finalMinusTwo.tscn::PackedScene::6316119670752451003::1729742914::0::1::::<><>::uid://dcmiv7ua66u8f::::res://Scenes/finalMinusTwo/costume1 (1).svg<>uid://blyduxemsubwm::::res://Fonts/AmaticSC-Regular.ttf<>res://Scenes/finalMinusTwo/panicLabel.cs
 panicLabel.cs::CSharpScript::-1::1729651901::0::1::::<>Label<>::
-::res://Scenes/finalPlusOne/::1729733160
-finalPlusOne.tscn::PackedScene::6752109731987218352::1729733160::0::1::::<><>::res://Scenes/finalPlusOne/Buttons.cs<>uid://yiqslg8pa5a::::res://Scenes/finalPlusOne/openLinkIcon.png<>uid://bxsbpiwjqf15q::::res://Scenes/finalPlusOne/githubIcon.png
+::res://Scenes/finalPlusOne/::1729742913
+Buttons.cs::CSharpScript::-1::1729731633::0::1::::<>Control<>::
+finalPlusOne.tscn::PackedScene::6752109731987218352::1729742913::0::1::::<><>::res://Scenes/finalPlusOne/Buttons.cs<>uid://yiqslg8pa5a::::res://Scenes/finalPlusOne/openLinkIcon.png<>uid://bxsbpiwjqf15q::::res://Scenes/finalPlusOne/githubIcon.png
 githubIcon.png::CompressedTexture2D::4038010845445287868::1729730041::1729730041::1::::<><>::
 openLinkIcon.png::CompressedTexture2D::50060337472498052::1729730049::1729730050::1::::<><>::
-Buttons.cs::CSharpScript::-1::1729731633::0::1::::<>Control<>::
 shareIcon.png::CompressedTexture2D::7601457905683053695::1729730222::1729729543::1::::<><>::
-::res://Scenes/mainGame/::1729733160
+::res://Scenes/mainGame/::1729742914
 bus.png::CompressedTexture2D::5021189538058627709::1729398123::1729398134::1::::<><>::
 clouds.png::CompressedTexture2D::6884972103953430804::1729662386::1729662404::1::::<><>::
 Controls.png::CompressedTexture2D::4346698025882233919::1729454606::1729454638::1::::<><>::
 controlsSheet.png::CompressedTexture2D::9055529831073390645::1729468729::1729468759::1::::<><>::
-Day1.tscn::PackedScene::5896285275370427640::1729733160::0::1::::<><>::res://Scenes/mainGame/Scripts/MainGame.cs<>uid://d3xr3gnbomlwl::::res://Scenes/mainGame/New Project (7).png<>res://Scenes/mainGame/Scripts/Bus.cs<>res://Scenes/mainGame/Scripts/Player.cs<>uid://rcwssy0ykcr::::res://Scenes/mainGame/playerSheet.png<>res://Scenes/mainGame/Scripts/player.gd<>res://Scenes/mainGame/Scripts/camera_2d.gd<>res://Scenes/mainGame/Scripts/DayScreen.cs<>uid://d4ndmwvoyfpwt::::res://Fonts/AmaticSC-Bold.ttf<>uid://c0njf4gw10dgq::::res://Scenes/mainGame/sproutSheet.png<>uid://cw6rmx1g5l7xy::::res://Scenes/mainGame/npcSheet.png<>res://Scenes/mainGame/Scripts/Npc.cs<>res://Scenes/mainGame/Scripts/label.gd<>uid://c5deqqiqxugoq::::res://Scenes/mainGame/clouds.png<>uid://c4wbpt23i1nds::::res://Scenes/mainGame/tiles.png<>uid://vh61vqnnpjfe::::res://Scenes/mainGame/decor1.png<>uid://d2atiu2ij48sv::::res://Scenes/mainGame/controlsSheet.png<>res://Scenes/mainGame/Scripts/Controls.cs<>uid://bkefl73b4iffv::::res://Scenes/mainGame/hazards.png<>res://Scenes/mainGame/Scripts/Hazards.cs
+Day1.tscn::PackedScene::5896285275370427640::1729742914::0::1::::<><>::res://Scenes/mainGame/Scripts/MainGame.cs<>uid://d3xr3gnbomlwl::::res://Scenes/mainGame/New Project (7).png<>res://Scenes/mainGame/Scripts/Bus.cs<>res://Scenes/mainGame/Scripts/Player.cs<>uid://rcwssy0ykcr::::res://Scenes/mainGame/playerSheet.png<>res://Scenes/mainGame/Scripts/player.gd<>res://Scenes/mainGame/Scripts/camera_2d.gd<>res://Scenes/mainGame/Scripts/DayScreen.cs<>uid://d4ndmwvoyfpwt::::res://Fonts/AmaticSC-Bold.ttf<>uid://c0njf4gw10dgq::::res://Scenes/mainGame/sproutSheet.png<>uid://cw6rmx1g5l7xy::::res://Scenes/mainGame/npcSheet.png<>res://Scenes/mainGame/Scripts/Npc.cs<>res://Scenes/mainGame/Scripts/label.gd<>uid://c5deqqiqxugoq::::res://Scenes/mainGame/clouds.png<>uid://c4wbpt23i1nds::::res://Scenes/mainGame/tiles.png<>uid://vh61vqnnpjfe::::res://Scenes/mainGame/decor1.png<>uid://d2atiu2ij48sv::::res://Scenes/mainGame/controlsSheet.png<>res://Scenes/mainGame/Scripts/Controls.cs<>uid://bkefl73b4iffv::::res://Scenes/mainGame/hazards.png<>res://Scenes/mainGame/Scripts/Hazards.cs
 decor1.png::CompressedTexture2D::1490346146410242874::1729452586::1729452586::1::::<><>::
 hazards.png::CompressedTexture2D::3096891583872688003::1729459557::1729459557::1::::<><>::
 icon.svg::CompressedTexture2D::8313786601353742403::1729304773::1729397929::1::::<><>::
@@ -54,30 +57,27 @@ Sprite2d.cs::CSharpScript::-1::1729396995::0::1::::<><>::
 sprout.png::CompressedTexture2D::3308783753279597666::1729406343::1729452613::1::::<><>::
 sproutSheet.png::CompressedTexture2D::6554956284525502480::1729481330::1729481361::1::::<><>::
 tiles.png::CompressedTexture2D::6853822688317087804::1729314112::1729397929::1::::<><>::
-::res://Scenes/mainGame/Scripts/::1729725495
+::res://Scenes/mainGame/Scripts/::1729741872
 Bus.cs::CSharpScript::-1::1729450606::0::1::::<>Sprite2D<>::
-camera_2d2.gd::GDScript::-1::1729667879::0::1::::<>Camera2D<>::
 camera_2d.gd::GDScript::-1::1729481055::0::1::::<>Camera2D<>::
 Controls.cs::CSharpScript::-1::1729468881::0::1::::<>Sprite2D<>::
 DayScreen.cs::CSharpScript::-1::1729482342::0::1::::<>Node2D<>::
 Hazards.cs::CSharpScript::-1::1729470017::0::1::::<>Sprite2D<>::
 label.gd::GDScript::-1::1729311177::0::1::::<>Label<>::
 MainGame.cs::CSharpScript::-1::1729465868::0::1::::<>Node2D<>::
-main_game.gd::GDScript::-1::1729725495::0::1::::<>Node2D<>::
-Npc2.cs::CSharpScript::-1::1729733053::0::1::::<>Sprite2D<>::
+main_game.gd::GDScript::-1::1729741872::0::1::::<>Node2D<>::
 Npc.cs::CSharpScript::-1::1729479154::0::1::::<>Sprite2D<>::
-Player2.cs::CSharpScript::-1::1729667000::0::1::::<>CharacterBody2D<>::
-Player.cs::CSharpScript::-1::1729481126::0::1::::<>CharacterBody2D<>::
-player.gd::GDScript::-1::1729725494::0::1::::<>Sprite2D<>::
-rigid_body_2d.gd::GDScript::-1::1729725495::0::1::::<>RigidBody2D<>::
-sprite_2d.gd::GDScript::-1::1729725495::0::1::::<>Sprite2D<>::
+Player.cs::CSharpScript::-1::1729733780::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1729741872::0::1::::<>Sprite2D<>::
+rigid_body_2d.gd::GDScript::-1::1729741872::0::1::::<>RigidBody2D<>::
+sprite_2d.gd::GDScript::-1::1729741872::0::1::::<>Sprite2D<>::
 ::res://Scenes/mainGame/Sounds/::1729397930
 jump.wav::AudioStreamWAV::114513277592875302::1729312000::1729397930::1::::<><>::
 walk.wav::AudioStreamWAV::7795978615254821963::1729312000::1729397930::1::::<><>::
-::res://Scenes/titleScreen/::1729733160
+::res://Scenes/titleScreen/::1729742913
 button.gd::GDScript::-1::1729481794::0::1::::<>Button<>::
 New Project.png::CompressedTexture2D::6221460314508710214::1729304773::1729397929::1::::<><>::
 sprite_2d.gd::GDScript::-1::1729481794::0::1::::<>Sprite2D<>::
 sprite_2d_2.gd::GDScript::-1::1729481928::0::1::::<>Sprite2D<>::
-titleScreen.tscn::PackedScene::1877380713837572515::1729733160::0::1::::<><>::uid://d4ndmwvoyfpwt::::res://Fonts/AmaticSC-Bold.ttf<>res://Scenes/titleScreen/t_itle.gd<>res://Scenes/titleScreen/button.gd<>uid://cuvyspbalehik::::res://Scenes/titleScreen/New Project.png<>res://Scenes/titleScreen/sprite_2d.gd<>uid://c0njf4gw10dgq::::res://Scenes/mainGame/sproutSheet.png
+titleScreen.tscn::PackedScene::1877380713837572515::1729742913::0::1::::<><>::uid://d4ndmwvoyfpwt::::res://Fonts/AmaticSC-Bold.ttf<>res://Scenes/titleScreen/t_itle.gd<>res://Scenes/titleScreen/button.gd<>uid://cuvyspbalehik::::res://Scenes/titleScreen/New Project.png<>res://Scenes/titleScreen/sprite_2d.gd<>uid://c0njf4gw10dgq::::res://Scenes/mainGame/sproutSheet.png
 t_itle.gd::GDScript::-1::1729481794::0::1::::<>Label<>::
