@@ -1,3 +1,77 @@
-[gd_scene format=3 uid="uid://p303nl1u7hvo"]
+[gd_scene load_steps=9 format=3 uid="uid://p303nl1u7hvo"]
+
+[ext_resource type="FontFile" uid="uid://blyduxemsubwm" path="res://Fonts/AmaticSC-Regular.ttf" id="1_61d0q"]
+[ext_resource type="Texture2D" uid="uid://bhw5nux0btw1p" path="res://Scenes/final/slash.png" id="1_yn6vp"]
+[ext_resource type="Script" path="res://Scenes/final/Text.cs" id="2_820n7"]
+[ext_resource type="FontFile" uid="uid://d4ndmwvoyfpwt" path="res://Fonts/AmaticSC-Bold.ttf" id="2_gygrg"]
+[ext_resource type="Texture2D" uid="uid://gc2y76nlh0ty" path="res://Scenes/final/arrows.png" id="4_5tinm"]
+[ext_resource type="Texture2D" uid="uid://4cma4bp2xpka" path="res://Scenes/final/theCount.png" id="5_vcorr"]
+
+[sub_resource type="Gradient" id="Gradient_st7en"]
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_nv8vg"]
+gradient = SubResource("Gradient_st7en")
 
 [node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+z_index = -135
+position = Vector2(617.5, 350.5)
+scale = Vector2(19.3477, 2999)
+texture = SubResource("GradientTexture1D_nv8vg")
+
+[node name="Camera" type="Camera2D" parent="."]
+position = Vector2(576, 326)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1150.0
+offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 411.0
+offset_top = 40.0
+offset_right = 1112.0
+offset_bottom = 493.0
+mouse_default_cursor_shape = 2
+theme_override_constants/line_spacing = -20
+theme_override_fonts/font = ExtResource("1_61d0q")
+theme_override_font_sizes/font_size = 66
+text = "Suicide is the second-leading cause of death for teens and young adults.
+
+1 in 5 high school students seriously consider suicide.
+
+1 in 10 attempt it.
+"
+autowrap_mode = 2
+script = ExtResource("2_820n7")
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 819.0
+offset_top = 352.0
+offset_right = 1083.0
+offset_bottom = 616.0
+focus_mode = 0
+mouse_filter = 1
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("2_gygrg")
+theme_override_font_sizes/font_size = 61
+icon = ExtResource("4_5tinm")
+flat = true
+
+[node name="Portrait" type="Sprite2D" parent="."]
+position = Vector2(208, 334.193)
+scale = Vector2(2.40351, 2.40351)
+texture = ExtResource("1_yn6vp")
+
+[node name="TheCount" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(583.127, 241.776)
+scale = Vector2(2.45582, 2.45582)
+texture = ExtResource("5_vcorr")
+
+[connection signal="pressed" from="Control/Button" to="Control/Label" method="_on_button_pressed"]

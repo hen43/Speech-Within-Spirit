@@ -1,0 +1,83 @@
+[gd_scene load_steps=6 format=3 uid="uid://c3g1i4qdnwnme"]
+
+[ext_resource type="Script" path="res://Scenes/finalPlusOne/Buttons.cs" id="1_3rip5"]
+[ext_resource type="Texture2D" uid="uid://yiqslg8pa5a" path="res://Scenes/finalPlusOne/openLinkIcon.png" id="1_u5kvu"]
+[ext_resource type="Texture2D" uid="uid://bxsbpiwjqf15q" path="res://Scenes/finalPlusOne/githubIcon.png" id="3_vvxo6"]
+
+[sub_resource type="Gradient" id="Gradient_4lhq6"]
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ha0cr"]
+gradient = SubResource("Gradient_4lhq6")
+
+[node name="FinalPlusOne" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -110
+position = Vector2(560, 356)
+scale = Vector2(19.1842, 2943.97)
+texture = SubResource("GradientTexture1D_ha0cr")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(574, 324)
+scale = Vector2(19.1842, 2943.97)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 158.71
+offset_top = 24.0
+offset_right = 961.71
+offset_bottom = 455.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 316
+text = "988"
+
+[node name="Label" type="Label" parent="Label"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 367.0
+offset_right = 527.0
+offset_bottom = 484.0
+theme_override_font_sizes/font_size = 41
+text = "Suicide and Crisis Hotline
+United States of America"
+
+[node name="Buttons" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 784.0
+offset_top = 58.0
+offset_right = 949.0
+offset_bottom = 595.0
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+script = ExtResource("1_3rip5")
+
+[node name="OpenLink" type="Button" parent="Buttons"]
+layout_mode = 2
+offset_left = 27.195
+offset_top = 66.045
+offset_right = 291.195
+offset_bottom = 333.44
+scale = Vector2(0.695, 0.695)
+mouse_filter = 1
+mouse_default_cursor_shape = 2
+icon = ExtResource("1_u5kvu")
+flat = true
+
+[node name="GithubLink" type="Button" parent="Buttons"]
+layout_mode = 2
+offset_left = 27.195
+offset_top = 287.43
+offset_right = 291.195
+offset_bottom = 551.43
+scale = Vector2(0.635, 0.635)
+mouse_filter = 1
+mouse_default_cursor_shape = 2
+icon = ExtResource("3_vvxo6")
+flat = true
